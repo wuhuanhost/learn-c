@@ -8,9 +8,9 @@ int main(void){
 	int num1,num2;
 	printf("****************compare the two numbers*******************\n");
 	printf("please enter the first number:\n");
-	scanf("%d",&num1);//定义字符串接收用户输入
+	scanf("%d",&num1);//接收用户输入的数字赋值给变量num1
 	printf("please enter the second number:\n");
-	scanf("%d",&num2);//定义字符串接收用户输入
+	scanf("%d",&num2);//接收用户输入的数字赋值给变量num2
     printf("The bigger number %d\n", max(num1, num2));  
     system("pause");  
     return 0;
