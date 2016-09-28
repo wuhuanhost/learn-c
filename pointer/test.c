@@ -9,11 +9,11 @@ int main(void){
 	printf("%d\n",*p1);
 	char a,*pa;
 	a=10;
-pa=&a;
-*pa=20;
-printf( "%d\n", a);
-printf("%s\n","------------------------------------------");
-testArr();
+	pa=&a;
+	*pa=20;
+	printf( "%d\n", a);
+	printf("%s\n","------------------------------------------");
+	testArr();
 	return 0;
 }
 
